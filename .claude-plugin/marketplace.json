@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "auto-model",
+  "description": "auto-model 分级调度插件",
+  "owner": {
+    "name": "xqnode",
+    "email": "xqnode@163.com"
+  },
+  "plugins": [
+    {
+      "name": "auto-model",
+      "source": "./",
+      "description": "按任务难度分级调度子代理：执行、开发、判断、专家四个角色，由主会话协调与验收。"
+    }
+  ]
+}
