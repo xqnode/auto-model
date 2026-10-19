@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auto Model 自动分级调度"
+  short_description: "适配 Codex 与 Claude Code，分级调度执行、开发、判断与专家角色"
+  default_prompt: "使用 $auto-model 完成本次任务：按当前宿主选择对应模型，明确任务交给执行角色，主要开发和复杂判断交给主力角色，专家仅按需升级，并验证结果。"
