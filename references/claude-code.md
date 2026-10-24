@@ -6,8 +6,8 @@
 | --- | --- | --- | --- |
 | 执行 | auto-model-executor | haiku | 不固定，沿用模型默认值 |
 | 开发 | auto-model-developer | sonnet | medium |
-| 判断 | auto-model-judge | sonnet | high |
-| 专家 | auto-model-expert | opus | medium 起步 |
+| 判断 | auto-model-judge | opus | medium |
+| 专家 | auto-model-expert | opus | high 起步 |
 
 这不是与 Codex 的能力或强度等价映射。别名解析到哪个版本取决于账号、供应商和配置；用户指定完整型号时用指定值，不用别名替换。
 
@@ -21,7 +21,7 @@
 - 代理不在可用列表里时，先说明加载问题（安装后需要新会话或 `/reload-plugins`）。若 Agent 工具支持直接指定型号，可以用通用代理承担同样的角色，并在交接里写明"完成后返回，不继续委派"。
 - skill 保留在主会话执行，不设置 context: fork，以便主代理负责路由和整合。
 - Haiku 不同版本对 effort 的支持不同，执行代理不固定 effort；确认支持后再按任务调整。
-- 专家不可用时保留 Sonnet 判断角色，不自动换用其他供应商。
+- 专家不可用时保留判断角色，不自动换用其他供应商。
 
 ## 覆盖与核对
 

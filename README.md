@@ -8,8 +8,8 @@
 | --- | --- | --- | --- |
 | 执行 | gpt-6-luna / high | Haiku / 模型默认 effort | 明确规则的批量处理、格式化、既定检查 |
 | 开发 | gpt-6.1-sol / medium | Sonnet / medium | 功能开发、常规修复、局部重构及测试 |
-| 判断 | gpt-6.1-sol / high | Sonnet / high | 复杂根因、架构取舍及关键语义 |
-| 专家 | gpt-6-astra / low 起步 | Opus / medium 起步 | 证据充分的特别困难问题 |
+| 判断 | gpt-6.1-sol / high | Opus / medium | 复杂根因、架构取舍及关键语义 |
+| 专家 | gpt-6-astra / low 起步 | Opus / high 起步 | 证据充分的特别困难问题 |
 
 默认从开发角色开始，不要求每次使用全部角色；主会话几步内能完成的事不委派。不同宿主的模型与强度不表示能力等价；可用配置以当前宿主、版本和用户设置为准。详见 [SKILL.md](SKILL.md)。
 

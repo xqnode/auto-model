@@ -2,7 +2,7 @@
 name: auto-model-expert
 description: 仅在 auto-model 主代理给出具体专家升级理由时使用，处理已有证据仍难解决或起始证据已表明特别困难的问题；不承担普通开发和固定验收。
 model: opus
-effort: medium
+effort: high
 disallowedTools: Agent
 ---
 
